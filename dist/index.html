@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/d0e7b34083.js" crossorigin="anonymous"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/simple-lightbox.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Barber Shop</title>
+</head>
+
+<body id="home">
+
+  <!-- Navbar Starts -->
+  <nav class="navbar">
+    <div class="container">
+      <h1 class="logo">LA Barber</h1>
+      <ul class="nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#section-b">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Navbar Ends -->
+
+  <!-- Showcase Starts -->
+  <section class="section-a">
+    <div class="container">
+      <div>
+        <h1>LA Barber</h1>
+        <p>Specialize in mens haircuts and children haircuts. Cut all types of hair. Also specialize
+          in beard trims. Appointments Only! DM me via Instagram to book your appointment!</p>
+        <a href="https://squareup.com/appointments/book/c5npu6mw0jrawc/L40W1ZS40HCP4/services/" class="btn">Book
+          Appointment</a>
+        <a href="http://instagram.com/navi2ivan/" class="btn">View Instagram</a>
+      </div>
+      <img src="https://i.ibb.co/XJ6nNQW/barber-logo-2.jpg" alt="">
+    </div>
+  </section>
+  <!-- Showcase Ends -->
+
+  <!-- Overlay Starts -->
+  <section class="section-b" id="section-b">
+    <div class="overlay">
+      <div class="section-b-inner">
+        <h3>Cuts & Trims</h3>
+        <h2>Fades, Tapers, & Beard Trims</h2>
+        <p>LA Barber out to make a difference. Cuts and trims are by appointments only!</p>
+      </div>
+    </div>
+  </section>
+  <!-- Overlay Ends -->
+
+  <!-- Gallery Starts -->
+  <section class="section-c">
+    <div class="gallery">
+      <a href="https://i.ibb.co/HqQVyVD/cut-1.png" class="big">
+        <img src="https://i.ibb.co/HqQVyVD/cut-1.png" alt="">
+      </a>
+      <a href="https://i.ibb.co/1vvhprJ/cut-2.png" class="big">
+        <img src="https://i.ibb.co/1vvhprJ/cut-2.png" alt="">
+      </a>
+      <a href="https://i.ibb.co/tZGs5LW/cut-3.png" class="big">
+        <img src="https://i.ibb.co/tZGs5LW/cut-3.png" alt="">
+      </a>
+      <a href="https://i.ibb.co/mvdFbJk/cut-4.png" class="big">
+        <img src="https://i.ibb.co/mvdFbJk/cut-4.png" alt="">
+      </a>
+    </div>
+  </section>
+  <!-- Gallery Ends -->
+
+  <!-- Footer Starts -->
+  <footer class="section-footer">
+    <div class="container">
+      <div>
+        <h2>Instagram</h2>
+        <a href="http://instagram.com/navi2ivan/">
+          <i class="fab fa-instagram fa-2x"></i>
+          navi2ivan
+        </a>
+      </div>
+      <div>
+        <h2>Contact</h2>
+        <p>Contact me via Instagram or Email</p>
+        <form method="POST" name="email-form" data-netlify="true">
+          <div class="email-form">
+            <span class="form-control-wrap">
+              <input type="email" class="form-control" name="email" id="email" size="40" placeholder="Email">
+            </span>
+            <button type="submit" class="form-control submit">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="js/simple-lightbox.jquery.min.js"></script>
+  <script>
+    $(function () {
+      let $gallery = $(".gallery a").simpleLightbox();
+    });
+  </script>
+</body>
+
+</html>
